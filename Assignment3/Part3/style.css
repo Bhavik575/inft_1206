@@ -24,7 +24,12 @@ body {
   margin: 0 auto;
   min-width: 1000px;
   max-width: 1400px;
+  line-height: 2.3;
 }
+
+
+
+
 
 /* Layout */
 
@@ -48,13 +53,15 @@ footer {
 }
 
 header, section, aside, nav, footer {
- 
+
+ font-size: 1.4rem;
   padding: 20px;
 }
 
 h1,h2{font-family: 'CustomFont', sans-serif;}
 
-header{font-family: 'CustomFont', sans-serif;}
+header{font-family: 'CustomFont', sans-serif;
+        text-align: center;}
 /* header and footer */
 
 header, footer {

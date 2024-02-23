@@ -3,33 +3,16 @@
 * {
   box-sizing: border-box;
 }
-
-
-@font-face {
-  font-family: 'CustomFont';
-  src: url('Berylium.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Customfont';
-  src: url('Acme-Regular.ttf') format('truetype');
-}
-
 html {
   font-size: 0.625rem;
 }
 
 body {
-  font-family: 'CustomFont', serif;
   margin: 0 auto;
   min-width: 1000px;
   max-width: 1400px;
-  line-height: 2.3;
+  
 }
-
-
-
-
 
 /* Layout */
 
@@ -53,12 +36,10 @@ footer {
 }
 
 header, section, aside, nav, footer {
-
- font-size: 1.4rem;
   padding: 20px;
 }
 
-h1,h2{font-family: 'CustomFont', sans-serif;}
+
 
 header{font-family: 'CustomFont', sans-serif;
         text-align: center;}
@@ -70,4 +51,99 @@ header, footer {
   border-bottom: 5px solid #a66;
 }
 
+
+
+
+
 /* WRITE YOUR CODE BELOW HERE */
+
+
+
+
+
+
+@font-face {
+  font-family: 'CustomFont';
+  src: url('Berylium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Customfont';
+  src: url('Acme-Regular.ttf') format('truetype');
+}
+
+body {
+  font-family: 'CustomFont', serif;
+  line-height: 2.3;
+  letter-spacing: 0.05em;
+  word-spacing: 0.1em
+}
+header, section, aside, nav, footer {
+
+  font-size: 1.4rem;
+}
+h1,h2{font-family: 'CustomFont', sans-serif;
+  letter-spacing: 0.1em;}
+
+  p{text-indent: 20px;
+}
+
+a.ex1:hover, a.ex1:active {color: red;}
+a.ex1:visited, a.ex1:link {text-decoration: purple;}
+a.ex1:hover, a.ex1:active {text-decoration: none;}
+a.ex1:focus { outline: none;}
+a.ex1:active{ color: #ff0000; 
+  background-color: lightgreen;}
+
+  a.ex1::after {
+    content: url('external-link-521.png'); 
+  
+    
+  }
+
+  a.ex2{a.ex2:focus { outline: none;}
+  a.ex2:active{ color: #ff0000; 
+    background-color: lightgreen;}
+    a.ex1:focus { outline: none;}}
+
+    ul {
+      list-style: none; 
+    }
+    
+    ul li {
+      padding-left: 20px; 
+      list-style-image: url('images.png');
+      
+    }
+
+    navbar {
+      background-color: #333;
+      overflow: hidden;
+    }
+    
+    navbar ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    
+    navbar li {
+      display: inline-block;
+    }
+    
+    navbar a {
+      display: block;
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+    
+    navbar a:hover {
+      background-color: #555;
+    }
+    
+  navbar a:focus,
+    navbar a.active {
+      background-color: #777;
+    }

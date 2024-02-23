@@ -29,7 +29,9 @@ aside {
 nav {
   float: left;
   width: 20%;
+  
 }
+
 
 footer {
   clear: both;
@@ -78,6 +80,33 @@ body {
   letter-spacing: 0.05em;
   word-spacing: 0.1em
 }
+
+.e3 {
+  background: #ff9999;
+  padding: 20px;
+}
+
+.e3{
+  
+  padding: 20px;
+  padding-left: 20px; 
+      list-style-image: url('images.png');
+}
+
+.e3 {
+  background: #ffe5e5;
+  color: darkred;
+  padding: 5px;
+  margin-left: 35px;
+}
+
+.e3 {
+  background: #cce5ff;
+  color: darkblue;
+  margin: 5px;
+  
+}
+
 header, section, aside, nav, footer {
 
   font-size: 1.4rem;
@@ -146,4 +175,29 @@ a.ex1:active{ color: #ff0000;
   navbar a:focus,
     navbar a.active {
       background-color: #777;
+    }
+
+    nav{
+      ol {
+        background: #ff9999;
+        padding: 20px;
+      }
+      
+      ul {
+        background: #3399ff;
+        padding: 20px;
+      }
+      
+      ol li {
+        background: #ffe5e5;
+        color: darkred;
+        padding: 5px;
+        margin-left: 35px;
+      }
+      
+      ul li {
+        background: #cce5ff;
+        color: darkblue;
+        margin: 5px;
+      }
     }
